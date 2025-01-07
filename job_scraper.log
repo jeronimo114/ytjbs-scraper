@@ -1,0 +1,62 @@
+2025-01-07 17:32:37,029:INFO:====== WebDriver manager ======
+2025-01-07 17:32:37,236:INFO:Get LATEST chromedriver version for google-chrome
+2025-01-07 17:32:37,333:INFO:Get LATEST chromedriver version for google-chrome
+2025-01-07 17:32:37,400:INFO:Driver [/Users/jero/.wdm/drivers/chromedriver/mac64/131.0.6778.264/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-07 17:32:38,851:INFO:WebDriver initialized and navigating to the job listings page.
+2025-01-07 17:32:40,688:INFO:Loading all jobs...
+2025-01-07 17:32:40,688:INFO:Attempting to click 'Load More' button...
+2025-01-07 17:32:50,987:INFO:No more 'Load More' button found. All jobs loaded.
+2025-01-07 17:32:50,988:INFO:Collecting job links...
+2025-01-07 17:32:51,004:INFO:Found 9 job cards.
+2025-01-07 17:32:51,025:INFO:Collected job link 1: https://ytjobs.co/job/20596
+2025-01-07 17:32:51,035:INFO:Collected job link 2: https://ytjobs.co/job/20475
+2025-01-07 17:32:51,041:INFO:Collected job link 3: https://ytjobs.co/job/20528
+2025-01-07 17:32:51,049:INFO:Collected job link 4: https://ytjobs.co/job/20648
+2025-01-07 17:32:51,054:INFO:Collected job link 5: https://ytjobs.co/job/20716
+2025-01-07 17:32:51,061:INFO:Collected job link 6: https://ytjobs.co/job/20630
+2025-01-07 17:32:51,067:INFO:Collected job link 7: https://ytjobs.co/job/20790
+2025-01-07 17:32:51,073:INFO:Collected job link 8: https://ytjobs.co/job/20550
+2025-01-07 17:32:51,078:INFO:Collected job link 9: https://ytjobs.co/job/20782
+2025-01-07 17:32:52,664:INFO:Navigated to job detail page: https://ytjobs.co/job/20596
+2025-01-07 17:32:52,677:INFO:Job title found for: https://ytjobs.co/job/20596
+2025-01-07 17:32:53,709:INFO:Extracted raw date for job 'Short/Long Form Video Editor (s) | Vincent Gao (5.33M)': Posted on: Jan 03 2025
+2025-01-07 17:32:53,709:INFO:Scraped job: Short/Long Form Video Editor (s) | Vincent Gao (5.33M) from https://ytjobs.co/job/20596
+2025-01-07 17:32:54,414:INFO:Navigated to job detail page: https://ytjobs.co/job/20475
+2025-01-07 17:32:54,417:INFO:Job title found for: https://ytjobs.co/job/20475
+2025-01-07 17:32:55,445:INFO:Extracted raw date for job 'Video Editor | Benny Johnson (2.6M)': Posted on: Dec 30 2024
+2025-01-07 17:32:55,446:INFO:Scraped job: Video Editor | Benny Johnson (2.6M) from https://ytjobs.co/job/20475
+2025-01-07 17:32:56,204:INFO:Navigated to job detail page: https://ytjobs.co/job/20528
+2025-01-07 17:32:56,207:INFO:Job title found for: https://ytjobs.co/job/20528
+2025-01-07 17:32:57,234:INFO:Extracted raw date for job 'Roblox Video Editor (Longform) | Reg (226K)': Posted on: Jan 01 2025
+2025-01-07 17:32:57,235:INFO:Scraped job: Roblox Video Editor (Longform) | Reg (226K) from https://ytjobs.co/job/20528
+2025-01-07 17:32:57,782:INFO:Navigated to job detail page: https://ytjobs.co/job/20648
+2025-01-07 17:32:58,013:INFO:Job title found for: https://ytjobs.co/job/20648
+2025-01-07 17:32:59,040:INFO:Extracted raw date for job 'Video Editor for Video Essay channel | AI Justin (43.4K)': Posted on: Jan 04 2025
+2025-01-07 17:32:59,041:INFO:Scraped job: Video Editor for Video Essay channel | AI Justin (43.4K) from https://ytjobs.co/job/20648
+2025-01-07 17:32:59,767:INFO:Navigated to job detail page: https://ytjobs.co/job/20716
+2025-01-07 17:32:59,772:INFO:Job title found for: https://ytjobs.co/job/20716
+2025-01-07 17:33:00,805:INFO:Extracted raw date for job 'Scriptwriter for Video Essay channel | AI Justin (43.4K)': Posted on: Jan 06 2025
+2025-01-07 17:33:00,806:INFO:Scraped job: Scriptwriter for Video Essay channel | AI Justin (43.4K) from https://ytjobs.co/job/20716
+2025-01-07 17:33:01,654:INFO:Navigated to job detail page: https://ytjobs.co/job/20630
+2025-01-07 17:33:01,658:INFO:Job title found for: https://ytjobs.co/job/20630
+2025-01-07 17:33:02,686:INFO:Extracted raw date for job 'Thumbnail Designer | Marcus DiPaola (18.2K)': Posted on: Jan 04 2025
+2025-01-07 17:33:02,687:INFO:Scraped job: Thumbnail Designer | Marcus DiPaola (18.2K) from https://ytjobs.co/job/20630
+2025-01-07 17:33:03,232:INFO:Navigated to job detail page: https://ytjobs.co/job/20790
+2025-01-07 17:33:03,446:INFO:Job title found for: https://ytjobs.co/job/20790
+2025-01-07 17:33:04,472:INFO:Extracted raw date for job 'Content Producer for Fast Growing Manufacturing Business | Paking Duck (1.12K)': Posted on: Jan 07 2025
+2025-01-07 17:33:04,473:INFO:Scraped job: Content Producer for Fast Growing Manufacturing Business | Paking Duck (1.12K) from https://ytjobs.co/job/20790
+2025-01-07 17:33:05,247:INFO:Navigated to job detail page: https://ytjobs.co/job/20550
+2025-01-07 17:33:05,251:INFO:Job title found for: https://ytjobs.co/job/20550
+2025-01-07 17:33:06,277:INFO:Extracted raw date for job 'Video Editor (Shorts) | Revised Studio LLC': Posted on: Jan 02 2025
+2025-01-07 17:33:06,277:INFO:Scraped job: Video Editor (Shorts) | Revised Studio LLC from https://ytjobs.co/job/20550
+2025-01-07 17:33:07,004:INFO:Navigated to job detail page: https://ytjobs.co/job/20782
+2025-01-07 17:33:07,008:INFO:Job title found for: https://ytjobs.co/job/20782
+2025-01-07 17:33:08,035:INFO:Extracted raw date for job 'Freelance Video Editor | JROB Media': Posted on: Jan 07 2025
+2025-01-07 17:33:08,036:INFO:Scraped job: Freelance Video Editor | JROB Media from https://ytjobs.co/job/20782
+2025-01-07 17:33:08,036:INFO:Found 9 new job(s). Saving to CSV...
+2025-01-07 17:33:08,039:INFO:Saved 9 new job(s) to job_listings.csv.
+2025-01-07 17:33:08,039:INFO:Found 2 job(s) posted today. Saving to today_jobs.csv...
+2025-01-07 17:33:08,039:INFO:Added today's job: Content Producer for Fast Growing Manufacturing Business | Paking Duck (1.12K) (https://ytjobs.co/job/20790)
+2025-01-07 17:33:08,039:INFO:Added today's job: Freelance Video Editor | JROB Media (https://ytjobs.co/job/20782)
+2025-01-07 17:33:08,039:INFO:Saved 2 today's job(s) to today_jobs.csv.
+2025-01-07 17:33:08,145:INFO:Sleeping for 3600 seconds...
