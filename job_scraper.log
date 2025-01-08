@@ -995,3 +995,651 @@
 2025-01-07 19:16:44,322:INFO:No new jobs found.
 2025-01-07 19:16:44,322:INFO:No jobs posted today.
 2025-01-07 19:16:44,512:INFO:Sleeping for 60 seconds...
+2025-01-08 09:16:20,623:INFO:Loaded 22 previously scraped jobs.
+2025-01-08 09:16:20,624:INFO:====== WebDriver manager ======
+2025-01-08 09:16:27,220:INFO:Get LATEST chromedriver version for google-chrome
+2025-01-08 09:16:27,787:INFO:Get LATEST chromedriver version for google-chrome
+2025-01-08 09:16:28,101:INFO:Get LATEST chromedriver version for google-chrome
+2025-01-08 09:16:46,864:INFO:WebDriver version 131.0.6778.264 selected
+2025-01-08 09:16:46,867:INFO:Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.264/mac-arm64/chromedriver-mac-arm64.zip
+2025-01-08 09:16:46,867:INFO:About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/131.0.6778.264/mac-arm64/chromedriver-mac-arm64.zip
+2025-01-08 09:16:47,324:INFO:Driver downloading response is 200
+2025-01-08 09:16:50,415:INFO:Get LATEST chromedriver version for google-chrome
+2025-01-08 09:16:52,958:INFO:Driver has been saved in cache [/Users/jero/.wdm/drivers/chromedriver/mac64/131.0.6778.264]
+2025-01-08 09:16:54,561:INFO:WebDriver initialized and navigating to the job listings page.
+2025-01-08 09:16:57,845:INFO:Loading all jobs...
+2025-01-08 09:16:57,846:INFO:Attempting to click 'See More' button (Attempt 1/5)...
+2025-01-08 09:17:08,111:INFO:No 'See More' button found or it is no longer clickable.
+2025-01-08 09:17:08,116:INFO:Scrolling to bottom (Scroll attempt 1/20)...
+2025-01-08 09:17:10,132:INFO:Page height did not change after scrolling. Assuming all jobs loaded.
+2025-01-08 09:17:10,132:INFO:Collecting job links...
+2025-01-08 09:17:10,142:INFO:Found 15 job cards on the page.
+2025-01-08 09:17:10,164:INFO:Collected job link 1: https://ytjobs.co/job/20152
+2025-01-08 09:17:10,171:INFO:Collected job link 2: https://ytjobs.co/job/20812
+2025-01-08 09:17:10,183:INFO:Collected job link 3: https://ytjobs.co/job/19993
+2025-01-08 09:17:10,192:INFO:Collected job link 4: https://ytjobs.co/job/20810
+2025-01-08 09:17:10,202:INFO:Collected job link 5: https://ytjobs.co/job/20243
+2025-01-08 09:17:10,208:INFO:Collected job link 6: https://ytjobs.co/job/20804
+2025-01-08 09:17:10,216:INFO:Collected job link 7: https://ytjobs.co/job/20802
+2025-01-08 09:17:10,222:INFO:Collected job link 8: https://ytjobs.co/job/19969
+2025-01-08 09:17:10,229:INFO:Collected job link 9: https://ytjobs.co/job/19943
+2025-01-08 09:17:10,235:INFO:Collected job link 10: https://ytjobs.co/job/20790
+2025-01-08 09:17:10,242:INFO:Collected job link 11: https://ytjobs.co/job/19931
+2025-01-08 09:17:10,250:INFO:Collected job link 12: https://ytjobs.co/job/20786
+2025-01-08 09:17:10,257:INFO:Collected job link 13: https://ytjobs.co/job/20782
+2025-01-08 09:17:10,265:INFO:Collected job link 14: https://ytjobs.co/job/19851
+2025-01-08 09:17:10,270:INFO:Collected job link 15: https://ytjobs.co/job/20778
+2025-01-08 09:17:12,241:INFO:Navigated to job detail page: https://ytjobs.co/job/20152
+2025-01-08 09:17:12,250:INFO:Job title found for: https://ytjobs.co/job/20152
+2025-01-08 09:17:13,273:INFO:Extracted raw date for job 'Thumbnail Designer for Family YouTube Channel | The Beverly Halls (10.2M)': Posted on: Dec 19 2024
+2025-01-08 09:17:13,273:INFO:Scraped job: Thumbnail Designer for Family YouTube Channel | The Beverly Halls (10.2M) from https://ytjobs.co/job/20152
+2025-01-08 09:17:14,200:INFO:Navigated to job detail page: https://ytjobs.co/job/20812
+2025-01-08 09:17:14,207:INFO:Job title found for: https://ytjobs.co/job/20812
+2025-01-08 09:17:15,224:INFO:Extracted raw date for job 'Tik tok and shorts specialists | Martin Abundes (71.1K)': Posted on: Jan 08 2025
+2025-01-08 09:17:15,224:INFO:Scraped job: Tik tok and shorts specialists | Martin Abundes (71.1K) from https://ytjobs.co/job/20812
+2025-01-08 09:17:16,144:INFO:Navigated to job detail page: https://ytjobs.co/job/19993
+2025-01-08 09:17:16,148:INFO:Job title found for: https://ytjobs.co/job/19993
+2025-01-08 09:17:17,164:INFO:Extracted raw date for job 'YouTube Strategist | Keep It Coming podcast (565)': Posted on: Dec 14 2024
+2025-01-08 09:17:17,164:INFO:Scraped job: YouTube Strategist | Keep It Coming podcast (565) from https://ytjobs.co/job/19993
+2025-01-08 09:17:17,750:INFO:Navigated to job detail page: https://ytjobs.co/job/20810
+2025-01-08 09:17:18,018:INFO:Job title found for: https://ytjobs.co/job/20810
+2025-01-08 09:17:19,033:INFO:Extracted raw date for job 'Video Editor For High Quality True Crime Channel | EVOLV MEDIA': Posted on: Jan 08 2025
+2025-01-08 09:17:19,033:INFO:Scraped job: Video Editor For High Quality True Crime Channel | EVOLV MEDIA from https://ytjobs.co/job/20810
+2025-01-08 09:17:19,900:INFO:Navigated to job detail page: https://ytjobs.co/job/20243
+2025-01-08 09:17:19,905:INFO:Job title found for: https://ytjobs.co/job/20243
+2025-01-08 09:17:20,928:INFO:Extracted raw date for job 'Looking for a Skilled Editor for my Agency | Weebz Hub (1.67K)': Posted on: Dec 22 2024
+2025-01-08 09:17:20,929:INFO:Scraped job: Looking for a Skilled Editor for my Agency | Weebz Hub (1.67K) from https://ytjobs.co/job/20243
+2025-01-08 09:17:21,737:INFO:Navigated to job detail page: https://ytjobs.co/job/20804
+2025-01-08 09:17:21,741:INFO:Job title found for: https://ytjobs.co/job/20804
+2025-01-08 09:17:22,756:INFO:Extracted raw date for job 'Video Editor | BlueNotes Brandon (1.43K)': Posted on: Jan 08 2025
+2025-01-08 09:17:22,757:INFO:Scraped job: Video Editor | BlueNotes Brandon (1.43K) from https://ytjobs.co/job/20804
+2025-01-08 09:17:23,947:INFO:Navigated to job detail page: https://ytjobs.co/job/20802
+2025-01-08 09:17:23,951:INFO:Job title found for: https://ytjobs.co/job/20802
+2025-01-08 09:17:24,969:INFO:Extracted raw date for job 'Creative Producer | Venus Management LLC': Posted on: Jan 08 2025
+2025-01-08 09:17:24,969:INFO:Scraped job: Creative Producer | Venus Management LLC from https://ytjobs.co/job/20802
+2025-01-08 09:17:25,893:INFO:Navigated to job detail page: https://ytjobs.co/job/19969
+2025-01-08 09:17:25,898:INFO:Job title found for: https://ytjobs.co/job/19969
+2025-01-08 09:17:26,920:INFO:Extracted raw date for job 'Video Editor Needed For Youtube Podcast | Dylan Hahn (0)': Posted on: Dec 14 2024
+2025-01-08 09:17:26,921:INFO:Scraped job: Video Editor Needed For Youtube Podcast | Dylan Hahn (0) from https://ytjobs.co/job/19969
+2025-01-08 09:17:27,506:INFO:Navigated to job detail page: https://ytjobs.co/job/19943
+2025-01-08 09:17:27,781:INFO:Job title found for: https://ytjobs.co/job/19943
+2025-01-08 09:17:28,800:INFO:Extracted raw date for job 'Video Editor | Whristan (108K)': Posted on: Dec 12 2024
+2025-01-08 09:17:28,802:INFO:Scraped job: Video Editor | Whristan (108K) from https://ytjobs.co/job/19943
+2025-01-08 09:17:28,802:INFO:Job already exists. Skipping: Video Editor | Whristan (108K)
+2025-01-08 09:17:29,713:INFO:Navigated to job detail page: https://ytjobs.co/job/20790
+2025-01-08 09:17:29,717:INFO:Job title found for: https://ytjobs.co/job/20790
+2025-01-08 09:17:30,739:INFO:Extracted raw date for job 'Content Producer for Fast Growing Manufacturing Business | Paking Duck (1.12K)': Posted on: Jan 07 2025
+2025-01-08 09:17:30,739:INFO:Scraped job: Content Producer for Fast Growing Manufacturing Business | Paking Duck (1.12K) from https://ytjobs.co/job/20790
+2025-01-08 09:17:30,739:INFO:Job already exists. Skipping: Content Producer for Fast Growing Manufacturing Business | Paking Duck (1.12K)
+2025-01-08 09:17:31,735:INFO:Navigated to job detail page: https://ytjobs.co/job/19931
+2025-01-08 09:17:31,740:INFO:Job title found for: https://ytjobs.co/job/19931
+2025-01-08 09:17:32,779:INFO:Extracted raw date for job 'YouTube Producer | LankyBox (40.1M)': Posted on: Dec 12 2024
+2025-01-08 09:17:32,780:INFO:Scraped job: YouTube Producer | LankyBox (40.1M) from https://ytjobs.co/job/19931
+2025-01-08 09:17:32,780:INFO:Job already exists. Skipping: YouTube Producer | LankyBox (40.1M)
+2025-01-08 09:17:33,847:INFO:Navigated to job detail page: https://ytjobs.co/job/20786
+2025-01-08 09:17:33,853:INFO:Job title found for: https://ytjobs.co/job/20786
+2025-01-08 09:17:34,874:INFO:Extracted raw date for job 'Video Editor for Sunny and Melon Channels | Melon and Sunny (1.38M)': Posted on: Jan 07 2025
+2025-01-08 09:17:34,874:INFO:Scraped job: Video Editor for Sunny and Melon Channels | Melon and Sunny (1.38M) from https://ytjobs.co/job/20786
+2025-01-08 09:17:34,874:INFO:Job already exists. Skipping: Video Editor for Sunny and Melon Channels | Melon and Sunny (1.38M)
+2025-01-08 09:17:35,667:INFO:Navigated to job detail page: https://ytjobs.co/job/20782
+2025-01-08 09:17:35,671:INFO:Job title found for: https://ytjobs.co/job/20782
+2025-01-08 09:17:36,691:INFO:Extracted raw date for job 'Freelance Video Editor | JROB Media': Posted on: Jan 07 2025
+2025-01-08 09:17:36,692:INFO:Scraped job: Freelance Video Editor | JROB Media from https://ytjobs.co/job/20782
+2025-01-08 09:17:36,692:INFO:Job already exists. Skipping: Freelance Video Editor | JROB Media
+2025-01-08 09:17:37,574:INFO:Navigated to job detail page: https://ytjobs.co/job/19851
+2025-01-08 09:17:37,580:INFO:Job title found for: https://ytjobs.co/job/19851
+2025-01-08 09:17:38,600:INFO:Extracted raw date for job 'Video Editor | Alaska Violet (1.71M)': Posted on: Dec 17 2024
+2025-01-08 09:17:38,601:INFO:Scraped job: Video Editor | Alaska Violet (1.71M) from https://ytjobs.co/job/19851
+2025-01-08 09:17:38,601:INFO:Job already exists. Skipping: Video Editor | Alaska Violet (1.71M)
+2025-01-08 09:17:39,471:INFO:Navigated to job detail page: https://ytjobs.co/job/20778
+2025-01-08 09:17:39,475:INFO:Job title found for: https://ytjobs.co/job/20778
+2025-01-08 09:17:40,495:INFO:Extracted raw date for job 'Social Video Editor | Loop': Posted on: Jan 07 2025
+2025-01-08 09:17:40,496:INFO:Scraped job: Social Video Editor | Loop from https://ytjobs.co/job/20778
+2025-01-08 09:17:40,496:INFO:Job already exists. Skipping: Social Video Editor | Loop
+2025-01-08 09:17:40,496:INFO:Found 8 new job(s). Saving to CSV...
+2025-01-08 09:17:40,499:INFO:Saved 8 new job(s) to job_listings.csv.
+2025-01-08 09:17:40,499:INFO:Found 4 job(s) posted today. Saving to today_jobs.csv...
+2025-01-08 09:17:40,500:INFO:Loaded 9 existing job URLs from today_jobs.csv.
+2025-01-08 09:17:40,500:INFO:Added today's job: Tik tok and shorts specialists | Martin Abundes (71.1K) (https://ytjobs.co/job/20812)
+2025-01-08 09:17:40,500:INFO:Added today's job: Video Editor For High Quality True Crime Channel | EVOLV MEDIA (https://ytjobs.co/job/20810)
+2025-01-08 09:17:40,500:INFO:Added today's job: Video Editor | BlueNotes Brandon (1.43K) (https://ytjobs.co/job/20804)
+2025-01-08 09:17:40,500:INFO:Added today's job: Creative Producer | Venus Management LLC (https://ytjobs.co/job/20802)
+2025-01-08 09:17:40,500:INFO:Saved 4 job(s) posted today to today_jobs.csv.
+2025-01-08 09:17:40,602:INFO:Sleeping for 60 seconds...
+2025-01-08 09:18:40,604:INFO:====== WebDriver manager ======
+2025-01-08 09:18:40,888:INFO:Get LATEST chromedriver version for google-chrome
+2025-01-08 09:18:41,552:INFO:Get LATEST chromedriver version for google-chrome
+2025-01-08 09:18:44,822:INFO:Driver [/Users/jero/.wdm/drivers/chromedriver/mac64/131.0.6778.264/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-08 09:18:46,488:INFO:WebDriver initialized and navigating to the job listings page.
+2025-01-08 09:18:49,674:INFO:Loading all jobs...
+2025-01-08 09:18:49,675:INFO:Attempting to click 'See More' button (Attempt 1/5)...
+2025-01-08 09:18:59,940:INFO:No 'See More' button found or it is no longer clickable.
+2025-01-08 09:18:59,944:INFO:Scrolling to bottom (Scroll attempt 1/20)...
+2025-01-08 09:19:01,958:INFO:Page height did not change after scrolling. Assuming all jobs loaded.
+2025-01-08 09:19:01,959:INFO:Collecting job links...
+2025-01-08 09:19:01,970:INFO:Found 15 job cards on the page.
+2025-01-08 09:19:01,983:INFO:Collected job link 1: https://ytjobs.co/job/20152
+2025-01-08 09:19:01,993:INFO:Collected job link 2: https://ytjobs.co/job/20812
+2025-01-08 09:19:02,001:INFO:Collected job link 3: https://ytjobs.co/job/19993
+2025-01-08 09:19:02,008:INFO:Collected job link 4: https://ytjobs.co/job/20810
+2025-01-08 09:19:02,015:INFO:Collected job link 5: https://ytjobs.co/job/20243
+2025-01-08 09:19:02,023:INFO:Collected job link 6: https://ytjobs.co/job/20804
+2025-01-08 09:19:02,030:INFO:Collected job link 7: https://ytjobs.co/job/20802
+2025-01-08 09:19:02,037:INFO:Collected job link 8: https://ytjobs.co/job/19969
+2025-01-08 09:19:02,045:INFO:Collected job link 9: https://ytjobs.co/job/19943
+2025-01-08 09:19:02,051:INFO:Collected job link 10: https://ytjobs.co/job/20790
+2025-01-08 09:19:02,058:INFO:Collected job link 11: https://ytjobs.co/job/19931
+2025-01-08 09:19:02,065:INFO:Collected job link 12: https://ytjobs.co/job/20786
+2025-01-08 09:19:02,071:INFO:Collected job link 13: https://ytjobs.co/job/20782
+2025-01-08 09:19:02,077:INFO:Collected job link 14: https://ytjobs.co/job/19851
+2025-01-08 09:19:02,082:INFO:Collected job link 15: https://ytjobs.co/job/20778
+2025-01-08 09:19:03,503:INFO:Navigated to job detail page: https://ytjobs.co/job/20152
+2025-01-08 09:19:03,511:INFO:Job title found for: https://ytjobs.co/job/20152
+2025-01-08 09:19:04,530:INFO:Extracted raw date for job 'Thumbnail Designer for Family YouTube Channel | The Beverly Halls (10.2M)': Posted on: Dec 19 2024
+2025-01-08 09:19:04,530:INFO:Scraped job: Thumbnail Designer for Family YouTube Channel | The Beverly Halls (10.2M) from https://ytjobs.co/job/20152
+2025-01-08 09:19:04,530:INFO:Job already exists. Skipping: Thumbnail Designer for Family YouTube Channel | The Beverly Halls (10.2M)
+2025-01-08 09:19:05,341:INFO:Navigated to job detail page: https://ytjobs.co/job/20812
+2025-01-08 09:19:05,345:INFO:Job title found for: https://ytjobs.co/job/20812
+2025-01-08 09:19:06,370:INFO:Extracted raw date for job 'Tik tok and shorts specialists | Martin Abundes (71.1K)': Posted on: Jan 08 2025
+2025-01-08 09:19:06,371:INFO:Scraped job: Tik tok and shorts specialists | Martin Abundes (71.1K) from https://ytjobs.co/job/20812
+2025-01-08 09:19:06,371:INFO:Job already exists. Skipping: Tik tok and shorts specialists | Martin Abundes (71.1K)
+2025-01-08 09:19:07,333:INFO:Navigated to job detail page: https://ytjobs.co/job/19993
+2025-01-08 09:19:07,338:INFO:Job title found for: https://ytjobs.co/job/19993
+2025-01-08 09:19:08,355:INFO:Extracted raw date for job 'YouTube Strategist | Keep It Coming podcast (565)': Posted on: Dec 14 2024
+2025-01-08 09:19:08,355:INFO:Scraped job: YouTube Strategist | Keep It Coming podcast (565) from https://ytjobs.co/job/19993
+2025-01-08 09:19:08,356:INFO:Job already exists. Skipping: YouTube Strategist | Keep It Coming podcast (565)
+2025-01-08 09:19:09,649:INFO:Navigated to job detail page: https://ytjobs.co/job/20810
+2025-01-08 09:19:09,652:INFO:Job title found for: https://ytjobs.co/job/20810
+2025-01-08 09:19:10,669:INFO:Extracted raw date for job 'Video Editor For High Quality True Crime Channel | EVOLV MEDIA': Posted on: Jan 08 2025
+2025-01-08 09:19:10,670:INFO:Scraped job: Video Editor For High Quality True Crime Channel | EVOLV MEDIA from https://ytjobs.co/job/20810
+2025-01-08 09:19:10,670:INFO:Job already exists. Skipping: Video Editor For High Quality True Crime Channel | EVOLV MEDIA
+2025-01-08 09:19:11,485:INFO:Navigated to job detail page: https://ytjobs.co/job/20243
+2025-01-08 09:19:11,492:INFO:Job title found for: https://ytjobs.co/job/20243
+2025-01-08 09:19:12,509:INFO:Extracted raw date for job 'Looking for a Skilled Editor for my Agency | Weebz Hub (1.67K)': Posted on: Dec 22 2024
+2025-01-08 09:19:12,510:INFO:Scraped job: Looking for a Skilled Editor for my Agency | Weebz Hub (1.67K) from https://ytjobs.co/job/20243
+2025-01-08 09:19:12,510:INFO:Job already exists. Skipping: Looking for a Skilled Editor for my Agency | Weebz Hub (1.67K)
+2025-01-08 09:19:13,419:INFO:Navigated to job detail page: https://ytjobs.co/job/20804
+2025-01-08 09:19:13,427:INFO:Job title found for: https://ytjobs.co/job/20804
+2025-01-08 09:19:14,445:INFO:Extracted raw date for job 'Video Editor | BlueNotes Brandon (1.43K)': Posted on: Jan 08 2025
+2025-01-08 09:19:14,445:INFO:Scraped job: Video Editor | BlueNotes Brandon (1.43K) from https://ytjobs.co/job/20804
+2025-01-08 09:19:14,445:INFO:Job already exists. Skipping: Video Editor | BlueNotes Brandon (1.43K)
+2025-01-08 09:19:15,382:INFO:Navigated to job detail page: https://ytjobs.co/job/20802
+2025-01-08 09:19:15,386:INFO:Job title found for: https://ytjobs.co/job/20802
+2025-01-08 09:19:16,404:INFO:Extracted raw date for job 'Creative Producer | Venus Management LLC': Posted on: Jan 08 2025
+2025-01-08 09:19:16,405:INFO:Scraped job: Creative Producer | Venus Management LLC from https://ytjobs.co/job/20802
+2025-01-08 09:19:16,405:INFO:Job already exists. Skipping: Creative Producer | Venus Management LLC
+2025-01-08 09:19:17,362:INFO:Navigated to job detail page: https://ytjobs.co/job/19969
+2025-01-08 09:19:17,366:INFO:Job title found for: https://ytjobs.co/job/19969
+2025-01-08 09:19:18,385:INFO:Extracted raw date for job 'Video Editor Needed For Youtube Podcast | Dylan Hahn (0)': Posted on: Dec 14 2024
+2025-01-08 09:19:18,388:INFO:Scraped job: Video Editor Needed For Youtube Podcast | Dylan Hahn (0) from https://ytjobs.co/job/19969
+2025-01-08 09:19:18,388:INFO:Job already exists. Skipping: Video Editor Needed For Youtube Podcast | Dylan Hahn (0)
+2025-01-08 09:19:19,286:INFO:Navigated to job detail page: https://ytjobs.co/job/19943
+2025-01-08 09:19:19,293:INFO:Job title found for: https://ytjobs.co/job/19943
+2025-01-08 09:19:20,310:INFO:Extracted raw date for job 'Video Editor | Whristan (108K)': Posted on: Dec 12 2024
+2025-01-08 09:19:20,311:INFO:Scraped job: Video Editor | Whristan (108K) from https://ytjobs.co/job/19943
+2025-01-08 09:19:20,311:INFO:Job already exists. Skipping: Video Editor | Whristan (108K)
+2025-01-08 09:19:21,199:INFO:Navigated to job detail page: https://ytjobs.co/job/20790
+2025-01-08 09:19:21,205:INFO:Job title found for: https://ytjobs.co/job/20790
+2025-01-08 09:19:22,220:INFO:Extracted raw date for job 'Content Producer for Fast Growing Manufacturing Business | Paking Duck (1.12K)': Posted on: Jan 07 2025
+2025-01-08 09:19:22,221:INFO:Scraped job: Content Producer for Fast Growing Manufacturing Business | Paking Duck (1.12K) from https://ytjobs.co/job/20790
+2025-01-08 09:19:22,222:INFO:Job already exists. Skipping: Content Producer for Fast Growing Manufacturing Business | Paking Duck (1.12K)
+2025-01-08 09:19:22,955:INFO:Navigated to job detail page: https://ytjobs.co/job/19931
+2025-01-08 09:19:23,191:INFO:Job title found for: https://ytjobs.co/job/19931
+2025-01-08 09:19:24,208:INFO:Extracted raw date for job 'YouTube Producer | LankyBox (40.1M)': Posted on: Dec 12 2024
+2025-01-08 09:19:24,209:INFO:Scraped job: YouTube Producer | LankyBox (40.1M) from https://ytjobs.co/job/19931
+2025-01-08 09:19:24,209:INFO:Job already exists. Skipping: YouTube Producer | LankyBox (40.1M)
+2025-01-08 09:19:24,815:INFO:Navigated to job detail page: https://ytjobs.co/job/20786
+2025-01-08 09:19:25,124:INFO:Job title found for: https://ytjobs.co/job/20786
+2025-01-08 09:19:26,138:INFO:Extracted raw date for job 'Video Editor for Sunny and Melon Channels | Melon and Sunny (1.38M)': Posted on: Jan 07 2025
+2025-01-08 09:19:26,138:INFO:Scraped job: Video Editor for Sunny and Melon Channels | Melon and Sunny (1.38M) from https://ytjobs.co/job/20786
+2025-01-08 09:19:26,138:INFO:Job already exists. Skipping: Video Editor for Sunny and Melon Channels | Melon and Sunny (1.38M)
+2025-01-08 09:19:26,649:INFO:Navigated to job detail page: https://ytjobs.co/job/20782
+2025-01-08 09:19:26,879:INFO:Job title found for: https://ytjobs.co/job/20782
+2025-01-08 09:19:27,896:INFO:Extracted raw date for job 'Freelance Video Editor | JROB Media': Posted on: Jan 07 2025
+2025-01-08 09:19:27,897:INFO:Scraped job: Freelance Video Editor | JROB Media from https://ytjobs.co/job/20782
+2025-01-08 09:19:27,897:INFO:Job already exists. Skipping: Freelance Video Editor | JROB Media
+2025-01-08 09:19:29,351:INFO:Navigated to job detail page: https://ytjobs.co/job/19851
+2025-01-08 09:19:29,357:INFO:Job title found for: https://ytjobs.co/job/19851
+2025-01-08 09:19:30,379:INFO:Extracted raw date for job 'Video Editor | Alaska Violet (1.71M)': Posted on: Dec 17 2024
+2025-01-08 09:19:30,380:INFO:Scraped job: Video Editor | Alaska Violet (1.71M) from https://ytjobs.co/job/19851
+2025-01-08 09:19:30,380:INFO:Job already exists. Skipping: Video Editor | Alaska Violet (1.71M)
+2025-01-08 09:19:31,221:INFO:Navigated to job detail page: https://ytjobs.co/job/20778
+2025-01-08 09:19:31,225:INFO:Job title found for: https://ytjobs.co/job/20778
+2025-01-08 09:19:32,248:INFO:Extracted raw date for job 'Social Video Editor | Loop': Posted on: Jan 07 2025
+2025-01-08 09:19:32,248:INFO:Scraped job: Social Video Editor | Loop from https://ytjobs.co/job/20778
+2025-01-08 09:19:32,248:INFO:Job already exists. Skipping: Social Video Editor | Loop
+2025-01-08 09:19:32,249:INFO:No new jobs found.
+2025-01-08 09:19:32,249:INFO:No jobs posted today.
+2025-01-08 09:19:32,354:INFO:Sleeping for 60 seconds...
+2025-01-08 09:20:32,728:INFO:Loaded 30 previously scraped jobs.
+2025-01-08 09:20:32,729:INFO:====== WebDriver manager ======
+2025-01-08 09:20:32,958:INFO:Get LATEST chromedriver version for google-chrome
+2025-01-08 09:31:49,526:INFO:Loaded 30 previously scraped jobs.
+2025-01-08 09:31:49,527:INFO:====== WebDriver manager ======
+2025-01-08 09:31:49,698:INFO:Get LATEST chromedriver version for google-chrome
+2025-01-08 09:37:42,730:INFO:Loaded 30 previously scraped jobs.
+2025-01-08 09:37:42,731:INFO:====== WebDriver manager ======
+2025-01-08 09:37:42,913:INFO:Get LATEST chromedriver version for google-chrome
+2025-01-08 09:48:28,861:INFO:Loaded 30 previously scraped jobs.
+2025-01-08 09:48:28,863:INFO:====== WebDriver manager ======
+2025-01-08 09:48:29,034:INFO:Get LATEST chromedriver version for google-chrome
+2025-01-08 09:48:48,544:INFO:Get LATEST chromedriver version for google-chrome
+2025-01-08 09:48:48,873:INFO:Driver [/Users/jero/.wdm/drivers/chromedriver/mac64/131.0.6778.264/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-08 09:48:50,718:INFO:WebDriver initialized and navigating to the job listings page.
+2025-01-08 09:48:57,739:INFO:Loading all jobs...
+2025-01-08 09:48:57,740:INFO:Attempting to click 'See More' button (Attempt 1/5)...
+2025-01-08 09:49:08,026:INFO:No 'See More' button found or it is no longer clickable.
+2025-01-08 09:49:08,031:INFO:Scrolling to bottom (Scroll attempt 1/20)...
+2025-01-08 09:49:10,047:INFO:Page height did not change after scrolling. Assuming all jobs loaded.
+2025-01-08 09:49:10,047:INFO:Collecting job links...
+2025-01-08 09:49:10,056:INFO:Found 15 job cards on the page.
+2025-01-08 09:49:10,069:INFO:Collected job link 1: https://ytjobs.co/job/20812
+2025-01-08 09:49:10,076:INFO:Collected job link 2: https://ytjobs.co/job/20810
+2025-01-08 09:49:10,084:INFO:Collected job link 3: https://ytjobs.co/job/20243
+2025-01-08 09:49:10,091:INFO:Collected job link 4: https://ytjobs.co/job/20804
+2025-01-08 09:49:10,102:INFO:Collected job link 5: https://ytjobs.co/job/19969
+2025-01-08 09:49:10,111:INFO:Collected job link 6: https://ytjobs.co/job/19943
+2025-01-08 09:49:10,118:INFO:Collected job link 7: https://ytjobs.co/job/20786
+2025-01-08 09:49:10,125:INFO:Collected job link 8: https://ytjobs.co/job/20782
+2025-01-08 09:49:10,133:INFO:Collected job link 9: https://ytjobs.co/job/19851
+2025-01-08 09:49:10,139:INFO:Collected job link 10: https://ytjobs.co/job/20778
+2025-01-08 09:49:10,145:INFO:Collected job link 11: https://ytjobs.co/job/20777
+2025-01-08 09:49:10,151:INFO:Collected job link 12: https://ytjobs.co/job/20148
+2025-01-08 09:49:10,159:INFO:Collected job link 13: https://ytjobs.co/job/20757
+2025-01-08 09:49:10,168:INFO:Collected job link 14: https://ytjobs.co/job/20761
+2025-01-08 09:49:10,173:INFO:Collected job link 15: https://ytjobs.co/job/20754
+2025-01-08 09:49:11,118:INFO:Navigated to job detail page: https://ytjobs.co/job/20812
+2025-01-08 09:49:11,132:INFO:Job title found for: https://ytjobs.co/job/20812
+2025-01-08 09:49:12,158:INFO:Extracted raw date for job 'Tik tok and shorts specialists | Martin Abundes (71.1K)': Posted on: Jan 08 2025
+2025-01-08 09:49:12,158:INFO:Scraped job: Tik tok and shorts specialists | Martin Abundes (71.1K) from https://ytjobs.co/job/20812
+2025-01-08 09:49:12,159:INFO:Job already exists. Skipping: Tik tok and shorts specialists | Martin Abundes (71.1K)
+2025-01-08 09:49:13,423:INFO:Navigated to job detail page: https://ytjobs.co/job/20810
+2025-01-08 09:49:13,429:INFO:Job title found for: https://ytjobs.co/job/20810
+2025-01-08 09:49:14,445:INFO:Extracted raw date for job 'Video Editor For High Quality True Crime Channel | EVOLV MEDIA': Posted on: Jan 08 2025
+2025-01-08 09:49:14,446:INFO:Scraped job: Video Editor For High Quality True Crime Channel | EVOLV MEDIA from https://ytjobs.co/job/20810
+2025-01-08 09:49:14,446:INFO:Job already exists. Skipping: Video Editor For High Quality True Crime Channel | EVOLV MEDIA
+2025-01-08 09:49:15,209:INFO:Navigated to job detail page: https://ytjobs.co/job/20243
+2025-01-08 09:49:15,213:INFO:Job title found for: https://ytjobs.co/job/20243
+2025-01-08 09:49:16,232:INFO:Extracted raw date for job 'Looking for a Skilled Editor for my Agency | Weebz Hub (1.67K)': Posted on: Dec 22 2024
+2025-01-08 09:49:16,233:INFO:Scraped job: Looking for a Skilled Editor for my Agency | Weebz Hub (1.67K) from https://ytjobs.co/job/20243
+2025-01-08 09:49:16,233:INFO:Job already exists. Skipping: Looking for a Skilled Editor for my Agency | Weebz Hub (1.67K)
+2025-01-08 09:49:17,194:INFO:Navigated to job detail page: https://ytjobs.co/job/20804
+2025-01-08 09:49:17,198:INFO:Job title found for: https://ytjobs.co/job/20804
+2025-01-08 09:49:18,223:INFO:Extracted raw date for job 'Video Editor | BlueNotes Brandon (1.43K)': Posted on: Jan 08 2025
+2025-01-08 09:49:18,223:INFO:Scraped job: Video Editor | BlueNotes Brandon (1.43K) from https://ytjobs.co/job/20804
+2025-01-08 09:49:18,223:INFO:Job already exists. Skipping: Video Editor | BlueNotes Brandon (1.43K)
+2025-01-08 09:49:18,896:INFO:Navigated to job detail page: https://ytjobs.co/job/19969
+2025-01-08 09:49:19,311:INFO:Job title found for: https://ytjobs.co/job/19969
+2025-01-08 09:49:20,333:INFO:Extracted raw date for job 'Video Editor Needed For Youtube Podcast | Dylan Hahn (0)': Posted on: Dec 14 2024
+2025-01-08 09:49:20,334:INFO:Scraped job: Video Editor Needed For Youtube Podcast | Dylan Hahn (0) from https://ytjobs.co/job/19969
+2025-01-08 09:49:20,334:INFO:Job already exists. Skipping: Video Editor Needed For Youtube Podcast | Dylan Hahn (0)
+2025-01-08 09:49:20,959:INFO:Navigated to job detail page: https://ytjobs.co/job/19943
+2025-01-08 09:49:21,302:INFO:Job title found for: https://ytjobs.co/job/19943
+2025-01-08 09:49:22,322:INFO:Extracted raw date for job 'Video Editor | Whristan (108K)': Posted on: Dec 12 2024
+2025-01-08 09:49:22,323:INFO:Scraped job: Video Editor | Whristan (108K) from https://ytjobs.co/job/19943
+2025-01-08 09:49:22,323:INFO:Job already exists. Skipping: Video Editor | Whristan (108K)
+2025-01-08 09:49:22,915:INFO:Navigated to job detail page: https://ytjobs.co/job/20786
+2025-01-08 09:49:23,285:INFO:Job title found for: https://ytjobs.co/job/20786
+2025-01-08 09:49:24,304:INFO:Extracted raw date for job 'Video Editor for Sunny and Melon Channels | Melon and Sunny (1.38M)': Posted on: Jan 07 2025
+2025-01-08 09:49:24,305:INFO:Scraped job: Video Editor for Sunny and Melon Channels | Melon and Sunny (1.38M) from https://ytjobs.co/job/20786
+2025-01-08 09:49:24,305:INFO:Job already exists. Skipping: Video Editor for Sunny and Melon Channels | Melon and Sunny (1.38M)
+2025-01-08 09:49:24,859:INFO:Navigated to job detail page: https://ytjobs.co/job/20782
+2025-01-08 09:49:25,199:INFO:Job title found for: https://ytjobs.co/job/20782
+2025-01-08 09:49:26,220:INFO:Extracted raw date for job 'Freelance Video Editor | JROB Media': Posted on: Jan 07 2025
+2025-01-08 09:49:26,220:INFO:Scraped job: Freelance Video Editor | JROB Media from https://ytjobs.co/job/20782
+2025-01-08 09:49:26,221:INFO:Job already exists. Skipping: Freelance Video Editor | JROB Media
+2025-01-08 09:49:27,231:INFO:Navigated to job detail page: https://ytjobs.co/job/19851
+2025-01-08 09:49:27,237:INFO:Job title found for: https://ytjobs.co/job/19851
+2025-01-08 09:49:28,256:INFO:Extracted raw date for job 'Video Editor | Alaska Violet (1.71M)': Posted on: Dec 17 2024
+2025-01-08 09:49:28,257:INFO:Scraped job: Video Editor | Alaska Violet (1.71M) from https://ytjobs.co/job/19851
+2025-01-08 09:49:28,257:INFO:Job already exists. Skipping: Video Editor | Alaska Violet (1.71M)
+2025-01-08 09:49:29,082:INFO:Navigated to job detail page: https://ytjobs.co/job/20778
+2025-01-08 09:49:29,087:INFO:Job title found for: https://ytjobs.co/job/20778
+2025-01-08 09:49:30,106:INFO:Extracted raw date for job 'Social Video Editor | Loop': Posted on: Jan 07 2025
+2025-01-08 09:49:30,107:INFO:Scraped job: Social Video Editor | Loop from https://ytjobs.co/job/20778
+2025-01-08 09:49:30,107:INFO:Job already exists. Skipping: Social Video Editor | Loop
+2025-01-08 09:49:31,031:INFO:Navigated to job detail page: https://ytjobs.co/job/20777
+2025-01-08 09:49:31,035:INFO:Job title found for: https://ytjobs.co/job/20777
+2025-01-08 09:49:32,056:INFO:Extracted raw date for job 'Long Form Video Editor | RAVEN (28)': Posted on: Jan 07 2025
+2025-01-08 09:49:32,058:INFO:Scraped job: Long Form Video Editor | RAVEN (28) from https://ytjobs.co/job/20777
+2025-01-08 09:49:32,058:INFO:Job already exists. Skipping: Long Form Video Editor | RAVEN (28)
+2025-01-08 09:49:32,902:INFO:Navigated to job detail page: https://ytjobs.co/job/20148
+2025-01-08 09:49:32,906:INFO:Job title found for: https://ytjobs.co/job/20148
+2025-01-08 09:49:33,927:INFO:Extracted raw date for job 'Video Editor | dylandoesbasketball (206K) | dylandoesbasketball (205K)': Posted on: Dec 19 2024
+2025-01-08 09:49:33,927:INFO:Scraped job: Video Editor | dylandoesbasketball (206K) | dylandoesbasketball (205K) from https://ytjobs.co/job/20148
+2025-01-08 09:49:33,927:INFO:Job already exists. Skipping: Video Editor | dylandoesbasketball (206K) | dylandoesbasketball (205K)
+2025-01-08 09:49:34,966:INFO:Navigated to job detail page: https://ytjobs.co/job/20757
+2025-01-08 09:49:34,970:INFO:Job title found for: https://ytjobs.co/job/20757
+2025-01-08 09:49:35,990:INFO:Extracted raw date for job 'Video Editor | Beta Squad (10.2M)': Posted on: Jan 07 2025
+2025-01-08 09:49:35,991:INFO:Scraped job: Video Editor | Beta Squad (10.2M) from https://ytjobs.co/job/20757
+2025-01-08 09:49:35,991:INFO:Job already exists. Skipping: Video Editor | Beta Squad (10.2M)
+2025-01-08 09:49:37,020:INFO:Navigated to job detail page: https://ytjobs.co/job/20761
+2025-01-08 09:49:37,024:INFO:Job title found for: https://ytjobs.co/job/20761
+2025-01-08 09:49:38,053:INFO:Extracted raw date for job 'Short Form Video Editor (Gaming) | xAcceptiion Live (644K)': Posted on: Jan 07 2025
+2025-01-08 09:49:38,055:INFO:Scraped job: Short Form Video Editor (Gaming) | xAcceptiion Live (644K) from https://ytjobs.co/job/20761
+2025-01-08 09:49:38,055:INFO:Job already exists. Skipping: Short Form Video Editor (Gaming) | xAcceptiion Live (644K)
+2025-01-08 09:49:38,640:INFO:Navigated to job detail page: https://ytjobs.co/job/20754
+2025-01-08 09:49:39,117:INFO:Job title found for: https://ytjobs.co/job/20754
+2025-01-08 09:49:40,146:INFO:Extracted raw date for job 'Minecraft Editor de Videos en Español | Trolero (10.3M)': Posted on: Jan 07 2025
+2025-01-08 09:49:40,148:INFO:Scraped job: Minecraft Editor de Videos en Español | Trolero (10.3M) from https://ytjobs.co/job/20754
+2025-01-08 09:49:40,148:INFO:Job already exists. Skipping: Minecraft Editor de Videos en Español | Trolero (10.3M)
+2025-01-08 09:49:40,148:INFO:No new jobs found.
+2025-01-08 09:49:40,148:INFO:No jobs posted today.
+2025-01-08 09:49:40,294:INFO:Sleeping for 1200 seconds...
+2025-01-08 10:14:38,682:INFO:====== WebDriver manager ======
+2025-01-08 10:14:38,956:INFO:Get LATEST chromedriver version for google-chrome
+2025-01-08 10:14:39,308:INFO:Get LATEST chromedriver version for google-chrome
+2025-01-08 10:14:39,525:INFO:Driver [/Users/jero/.wdm/drivers/chromedriver/mac64/131.0.6778.264/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-08 10:14:40,980:INFO:WebDriver initialized and navigating to the job listings page.
+2025-01-08 10:15:00,812:INFO:Loading all jobs...
+2025-01-08 10:15:00,813:INFO:Attempting to click 'See More' button (Attempt 1/5)...
+2025-01-08 10:15:11,133:INFO:No 'See More' button found or it is no longer clickable.
+2025-01-08 10:15:11,138:INFO:Scrolling to bottom (Scroll attempt 1/20)...
+2025-01-08 10:15:13,155:INFO:Page height did not change after scrolling. Assuming all jobs loaded.
+2025-01-08 10:15:13,155:INFO:Collecting job links...
+2025-01-08 10:15:13,171:INFO:Found 15 job cards on the page.
+2025-01-08 10:15:13,188:INFO:Collected job link 1: https://ytjobs.co/job/19996
+2025-01-08 10:15:13,198:INFO:Collected job link 2: https://ytjobs.co/job/20812
+2025-01-08 10:15:13,207:INFO:Collected job link 3: https://ytjobs.co/job/20810
+2025-01-08 10:15:13,214:INFO:Collected job link 4: https://ytjobs.co/job/20243
+2025-01-08 10:15:13,221:INFO:Collected job link 5: https://ytjobs.co/job/20804
+2025-01-08 10:15:13,228:INFO:Collected job link 6: https://ytjobs.co/job/19969
+2025-01-08 10:15:13,233:INFO:Collected job link 7: https://ytjobs.co/job/19943
+2025-01-08 10:15:13,240:INFO:Collected job link 8: https://ytjobs.co/job/20786
+2025-01-08 10:15:13,245:INFO:Collected job link 9: https://ytjobs.co/job/20782
+2025-01-08 10:15:13,250:INFO:Collected job link 10: https://ytjobs.co/job/19851
+2025-01-08 10:15:13,255:INFO:Collected job link 11: https://ytjobs.co/job/20778
+2025-01-08 10:15:13,262:INFO:Collected job link 12: https://ytjobs.co/job/20777
+2025-01-08 10:15:13,267:INFO:Collected job link 13: https://ytjobs.co/job/20148
+2025-01-08 10:15:13,273:INFO:Collected job link 14: https://ytjobs.co/job/20757
+2025-01-08 10:15:13,277:INFO:Collected job link 15: https://ytjobs.co/job/20761
+2025-01-08 10:15:18,172:INFO:Navigated to job detail page: https://ytjobs.co/job/19996
+2025-01-08 10:15:18,186:INFO:Job title found for: https://ytjobs.co/job/19996
+2025-01-08 10:15:19,217:INFO:Extracted raw date for job 'Video Editor | Vlad and Chris (119K)': Posted on: Dec 15 2024
+2025-01-08 10:15:19,218:INFO:Scraped job: Video Editor | Vlad and Chris (119K) from https://ytjobs.co/job/19996
+2025-01-08 10:15:21,773:INFO:Navigated to job detail page: https://ytjobs.co/job/20812
+2025-01-08 10:15:21,781:INFO:Job title found for: https://ytjobs.co/job/20812
+2025-01-08 10:15:22,806:INFO:Extracted raw date for job 'Tik tok and shorts specialists | Martin Abundes (71.1K)': Posted on: Jan 08 2025
+2025-01-08 10:15:22,806:INFO:Scraped job: Tik tok and shorts specialists | Martin Abundes (71.1K) from https://ytjobs.co/job/20812
+2025-01-08 10:15:22,807:INFO:Job already exists. Skipping: Tik tok and shorts specialists | Martin Abundes (71.1K)
+2025-01-08 10:15:27,864:INFO:Navigated to job detail page: https://ytjobs.co/job/20810
+2025-01-08 10:15:27,873:INFO:Job title found for: https://ytjobs.co/job/20810
+2025-01-08 10:15:28,900:INFO:Extracted raw date for job 'Video Editor For High Quality True Crime Channel | EVOLV MEDIA': Posted on: Jan 08 2025
+2025-01-08 10:15:28,900:INFO:Scraped job: Video Editor For High Quality True Crime Channel | EVOLV MEDIA from https://ytjobs.co/job/20810
+2025-01-08 10:15:28,900:INFO:Job already exists. Skipping: Video Editor For High Quality True Crime Channel | EVOLV MEDIA
+2025-01-08 10:15:30,431:INFO:Navigated to job detail page: https://ytjobs.co/job/20243
+2025-01-08 10:15:30,440:INFO:Job title found for: https://ytjobs.co/job/20243
+2025-01-08 10:15:31,472:INFO:Extracted raw date for job 'Looking for a Skilled Editor for my Agency | Weebz Hub (1.67K)': Posted on: Dec 22 2024
+2025-01-08 10:15:31,474:INFO:Scraped job: Looking for a Skilled Editor for my Agency | Weebz Hub (1.67K) from https://ytjobs.co/job/20243
+2025-01-08 10:15:31,474:INFO:Job already exists. Skipping: Looking for a Skilled Editor for my Agency | Weebz Hub (1.67K)
+2025-01-08 10:15:32,480:INFO:Navigated to job detail page: https://ytjobs.co/job/20804
+2025-01-08 10:15:38,534:INFO:Job title found for: https://ytjobs.co/job/20804
+2025-01-08 10:15:39,589:INFO:Extracted raw date for job 'Video Editor | BlueNotes Brandon (1.43K)': Posted on: Jan 08 2025
+2025-01-08 10:15:39,589:INFO:Scraped job: Video Editor | BlueNotes Brandon (1.43K) from https://ytjobs.co/job/20804
+2025-01-08 10:15:39,589:INFO:Job already exists. Skipping: Video Editor | BlueNotes Brandon (1.43K)
+2025-01-08 10:15:41,783:INFO:Navigated to job detail page: https://ytjobs.co/job/19969
+2025-01-08 10:15:41,787:INFO:Job title found for: https://ytjobs.co/job/19969
+2025-01-08 10:15:42,818:INFO:Extracted raw date for job 'Video Editor Needed For Youtube Podcast | Dylan Hahn (0)': Posted on: Dec 14 2024
+2025-01-08 10:15:42,819:INFO:Scraped job: Video Editor Needed For Youtube Podcast | Dylan Hahn (0) from https://ytjobs.co/job/19969
+2025-01-08 10:15:42,819:INFO:Job already exists. Skipping: Video Editor Needed For Youtube Podcast | Dylan Hahn (0)
+2025-01-08 10:15:47,404:INFO:Navigated to job detail page: https://ytjobs.co/job/19943
+2025-01-08 10:15:47,414:INFO:Job title found for: https://ytjobs.co/job/19943
+2025-01-08 10:15:48,443:INFO:Extracted raw date for job 'Video Editor | Whristan (108K)': Posted on: Dec 12 2024
+2025-01-08 10:15:48,444:INFO:Scraped job: Video Editor | Whristan (108K) from https://ytjobs.co/job/19943
+2025-01-08 10:15:48,444:INFO:Job already exists. Skipping: Video Editor | Whristan (108K)
+2025-01-08 10:16:01,857:INFO:Navigated to job detail page: https://ytjobs.co/job/20786
+2025-01-08 10:16:01,864:INFO:Job title found for: https://ytjobs.co/job/20786
+2025-01-08 10:16:02,887:INFO:Extracted raw date for job 'Video Editor for Sunny and Melon Channels | Melon and Sunny (1.38M)': Posted on: Jan 07 2025
+2025-01-08 10:16:02,888:INFO:Scraped job: Video Editor for Sunny and Melon Channels | Melon and Sunny (1.38M) from https://ytjobs.co/job/20786
+2025-01-08 10:16:02,888:INFO:Job already exists. Skipping: Video Editor for Sunny and Melon Channels | Melon and Sunny (1.38M)
+2025-01-08 10:16:04,670:INFO:Navigated to job detail page: https://ytjobs.co/job/20782
+2025-01-08 10:16:04,675:INFO:Job title found for: https://ytjobs.co/job/20782
+2025-01-08 10:16:05,703:INFO:Extracted raw date for job 'Freelance Video Editor | JROB Media': Posted on: Jan 07 2025
+2025-01-08 10:16:05,704:INFO:Scraped job: Freelance Video Editor | JROB Media from https://ytjobs.co/job/20782
+2025-01-08 10:16:05,704:INFO:Job already exists. Skipping: Freelance Video Editor | JROB Media
+2025-01-08 10:16:06,299:INFO:Navigated to job detail page: https://ytjobs.co/job/19851
+2025-01-08 10:16:07,068:INFO:Job title found for: https://ytjobs.co/job/19851
+2025-01-08 10:16:08,092:INFO:Extracted raw date for job 'Video Editor | Alaska Violet (1.71M)': Posted on: Dec 17 2024
+2025-01-08 10:16:08,093:INFO:Scraped job: Video Editor | Alaska Violet (1.71M) from https://ytjobs.co/job/19851
+2025-01-08 10:16:08,093:INFO:Job already exists. Skipping: Video Editor | Alaska Violet (1.71M)
+2025-01-08 10:16:09,794:INFO:Navigated to job detail page: https://ytjobs.co/job/20778
+2025-01-08 10:16:09,798:INFO:Job title found for: https://ytjobs.co/job/20778
+2025-01-08 10:16:10,825:INFO:Extracted raw date for job 'Social Video Editor | Loop': Posted on: Jan 07 2025
+2025-01-08 10:16:10,825:INFO:Scraped job: Social Video Editor | Loop from https://ytjobs.co/job/20778
+2025-01-08 10:16:10,825:INFO:Job already exists. Skipping: Social Video Editor | Loop
+2025-01-08 10:16:18,830:INFO:Navigated to job detail page: https://ytjobs.co/job/20777
+2025-01-08 10:16:18,843:INFO:Job title found for: https://ytjobs.co/job/20777
+2025-01-08 10:16:19,861:INFO:Extracted raw date for job 'Long Form Video Editor | RAVEN (28)': Posted on: Jan 07 2025
+2025-01-08 10:16:19,862:INFO:Scraped job: Long Form Video Editor | RAVEN (28) from https://ytjobs.co/job/20777
+2025-01-08 10:16:19,862:INFO:Job already exists. Skipping: Long Form Video Editor | RAVEN (28)
+2025-01-08 10:16:23,230:INFO:Navigated to job detail page: https://ytjobs.co/job/20148
+2025-01-08 10:16:23,239:INFO:Job title found for: https://ytjobs.co/job/20148
+2025-01-08 10:16:24,269:INFO:Extracted raw date for job 'Video Editor | dylandoesbasketball (206K) | dylandoesbasketball (205K)': Posted on: Dec 19 2024
+2025-01-08 10:16:24,270:INFO:Scraped job: Video Editor | dylandoesbasketball (206K) | dylandoesbasketball (205K) from https://ytjobs.co/job/20148
+2025-01-08 10:16:24,270:INFO:Job already exists. Skipping: Video Editor | dylandoesbasketball (206K) | dylandoesbasketball (205K)
+2025-01-08 10:16:35,355:INFO:Navigated to job detail page: https://ytjobs.co/job/20757
+2025-01-08 10:16:35,369:INFO:Job title found for: https://ytjobs.co/job/20757
+2025-01-08 10:16:36,394:INFO:Extracted raw date for job 'Video Editor | Beta Squad (10.2M)': Posted on: Jan 07 2025
+2025-01-08 10:16:36,394:INFO:Scraped job: Video Editor | Beta Squad (10.2M) from https://ytjobs.co/job/20757
+2025-01-08 10:16:36,394:INFO:Job already exists. Skipping: Video Editor | Beta Squad (10.2M)
+2025-01-08 10:16:37,003:INFO:Navigated to job detail page: https://ytjobs.co/job/20761
+2025-01-08 10:16:39,254:INFO:Job title found for: https://ytjobs.co/job/20761
+2025-01-08 10:16:40,279:INFO:Extracted raw date for job 'Short Form Video Editor (Gaming) | xAcceptiion Live (644K)': Posted on: Jan 07 2025
+2025-01-08 10:16:40,280:INFO:Scraped job: Short Form Video Editor (Gaming) | xAcceptiion Live (644K) from https://ytjobs.co/job/20761
+2025-01-08 10:16:40,280:INFO:Job already exists. Skipping: Short Form Video Editor (Gaming) | xAcceptiion Live (644K)
+2025-01-08 10:16:40,280:INFO:Found 1 new job(s). Saving to CSV...
+2025-01-08 10:16:40,285:INFO:Saved 1 new job(s) to job_listings.csv.
+2025-01-08 10:16:40,285:INFO:No jobs posted today.
+2025-01-08 10:16:40,393:INFO:Sleeping for 1200 seconds...
+2025-01-08 11:38:17,199:INFO:Loaded 31 previously scraped jobs.
+2025-01-08 11:38:17,199:INFO:====== WebDriver manager ======
+2025-01-08 11:38:17,853:INFO:Get LATEST chromedriver version for google-chrome
+2025-01-08 11:38:20,072:INFO:Get LATEST chromedriver version for google-chrome
+2025-01-08 11:38:29,490:INFO:Driver [/Users/jero/.wdm/drivers/chromedriver/mac64/131.0.6778.264/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-08 11:38:31,176:INFO:WebDriver initialized and navigating to the job listings page.
+2025-01-08 11:38:47,063:INFO:Loading all jobs...
+2025-01-08 11:38:47,063:INFO:Attempting to click 'See More' button (Attempt 1/5)...
+2025-01-08 11:38:57,355:INFO:No 'See More' button found or it is no longer clickable.
+2025-01-08 11:38:57,361:INFO:Scrolling to bottom (Scroll attempt 1/20)...
+2025-01-08 11:38:59,392:INFO:Page height did not change after scrolling. Assuming all jobs loaded.
+2025-01-08 11:38:59,393:INFO:Collecting job links...
+2025-01-08 11:38:59,408:INFO:Found 15 job cards on the page.
+2025-01-08 11:38:59,427:INFO:Collected job link 1: https://ytjobs.co/job/19996
+2025-01-08 11:38:59,437:INFO:Collected job link 2: https://ytjobs.co/job/20812
+2025-01-08 11:38:59,446:INFO:Collected job link 3: https://ytjobs.co/job/20810
+2025-01-08 11:38:59,454:INFO:Collected job link 4: https://ytjobs.co/job/20243
+2025-01-08 11:38:59,467:INFO:Collected job link 5: https://ytjobs.co/job/20804
+2025-01-08 11:38:59,475:INFO:Collected job link 6: https://ytjobs.co/job/19969
+2025-01-08 11:38:59,481:INFO:Collected job link 7: https://ytjobs.co/job/19943
+2025-01-08 11:38:59,487:INFO:Collected job link 8: https://ytjobs.co/job/20786
+2025-01-08 11:38:59,500:INFO:Collected job link 9: https://ytjobs.co/job/20782
+2025-01-08 11:38:59,507:INFO:Collected job link 10: https://ytjobs.co/job/19851
+2025-01-08 11:38:59,511:INFO:Collected job link 11: https://ytjobs.co/job/20778
+2025-01-08 11:38:59,516:INFO:Collected job link 12: https://ytjobs.co/job/20777
+2025-01-08 11:38:59,522:INFO:Collected job link 13: https://ytjobs.co/job/20148
+2025-01-08 11:38:59,527:INFO:Collected job link 14: https://ytjobs.co/job/20757
+2025-01-08 11:38:59,533:INFO:Collected job link 15: https://ytjobs.co/job/20761
+2025-01-08 11:39:03,086:INFO:Navigated to job detail page: https://ytjobs.co/job/19996
+2025-01-08 11:39:03,101:INFO:Job title found for: https://ytjobs.co/job/19996
+2025-01-08 11:39:04,132:INFO:Extracted raw date for job 'Video Editor | Vlad and Chris (119K)': Posted on: Dec 15 2024
+2025-01-08 11:39:04,133:INFO:Scraped job: Video Editor | Vlad and Chris (119K) from https://ytjobs.co/job/19996
+2025-01-08 11:39:04,133:INFO:Job already exists. Skipping: Video Editor | Vlad and Chris (119K)
+2025-01-08 11:39:04,818:INFO:Navigated to job detail page: https://ytjobs.co/job/20812
+2025-01-08 11:39:11,818:INFO:Job title found for: https://ytjobs.co/job/20812
+2025-01-08 11:39:12,848:INFO:Extracted raw date for job 'Tik tok and shorts specialists | Martin Abundes (71.1K)': Posted on: Jan 08 2025
+2025-01-08 11:39:12,848:INFO:Scraped job: Tik tok and shorts specialists | Martin Abundes (71.1K) from https://ytjobs.co/job/20812
+2025-01-08 11:39:12,848:INFO:Job already exists. Skipping: Tik tok and shorts specialists | Martin Abundes (71.1K)
+2025-01-08 11:39:14,413:INFO:Navigated to job detail page: https://ytjobs.co/job/20810
+2025-01-08 11:39:14,421:INFO:Job title found for: https://ytjobs.co/job/20810
+2025-01-08 11:39:15,442:INFO:Extracted raw date for job 'Video Editor For High Quality True Crime Channel | EVOLV MEDIA': Posted on: Jan 08 2025
+2025-01-08 11:39:15,443:INFO:Scraped job: Video Editor For High Quality True Crime Channel | EVOLV MEDIA from https://ytjobs.co/job/20810
+2025-01-08 11:39:15,443:INFO:Job already exists. Skipping: Video Editor For High Quality True Crime Channel | EVOLV MEDIA
+2025-01-08 11:39:15,986:INFO:Navigated to job detail page: https://ytjobs.co/job/20243
+2025-01-08 11:39:16,326:INFO:Job title found for: https://ytjobs.co/job/20243
+2025-01-08 11:39:17,353:INFO:Extracted raw date for job 'Looking for a Skilled Editor for my Agency | Weebz Hub (1.67K)': Posted on: Dec 22 2024
+2025-01-08 11:39:17,354:INFO:Scraped job: Looking for a Skilled Editor for my Agency | Weebz Hub (1.67K) from https://ytjobs.co/job/20243
+2025-01-08 11:39:17,354:INFO:Job already exists. Skipping: Looking for a Skilled Editor for my Agency | Weebz Hub (1.67K)
+2025-01-08 11:39:21,199:INFO:Navigated to job detail page: https://ytjobs.co/job/20804
+2025-01-08 11:39:21,211:INFO:Job title found for: https://ytjobs.co/job/20804
+2025-01-08 11:39:22,243:INFO:Extracted raw date for job 'Video Editor | BlueNotes Brandon (1.43K)': Posted on: Jan 08 2025
+2025-01-08 11:39:22,244:INFO:Scraped job: Video Editor | BlueNotes Brandon (1.43K) from https://ytjobs.co/job/20804
+2025-01-08 11:39:22,244:INFO:Job already exists. Skipping: Video Editor | BlueNotes Brandon (1.43K)
+2025-01-08 11:39:24,327:INFO:Navigated to job detail page: https://ytjobs.co/job/19969
+2025-01-08 11:39:24,336:INFO:Job title found for: https://ytjobs.co/job/19969
+2025-01-08 11:39:25,360:INFO:Extracted raw date for job 'Video Editor Needed For Youtube Podcast | Dylan Hahn (0)': Posted on: Dec 14 2024
+2025-01-08 11:39:25,360:INFO:Scraped job: Video Editor Needed For Youtube Podcast | Dylan Hahn (0) from https://ytjobs.co/job/19969
+2025-01-08 11:39:25,360:INFO:Job already exists. Skipping: Video Editor Needed For Youtube Podcast | Dylan Hahn (0)
+2025-01-08 11:39:27,180:INFO:Navigated to job detail page: https://ytjobs.co/job/19943
+2025-01-08 11:39:27,187:INFO:Job title found for: https://ytjobs.co/job/19943
+2025-01-08 11:39:28,212:INFO:Extracted raw date for job 'Video Editor | Whristan (108K)': Posted on: Dec 12 2024
+2025-01-08 11:39:28,213:INFO:Scraped job: Video Editor | Whristan (108K) from https://ytjobs.co/job/19943
+2025-01-08 11:39:28,213:INFO:Job already exists. Skipping: Video Editor | Whristan (108K)
+2025-01-08 11:39:30,497:INFO:Navigated to job detail page: https://ytjobs.co/job/20786
+2025-01-08 11:39:30,507:INFO:Job title found for: https://ytjobs.co/job/20786
+2025-01-08 11:39:31,535:INFO:Extracted raw date for job 'Video Editor for Sunny and Melon Channels | Melon and Sunny (1.38M)': Posted on: Jan 07 2025
+2025-01-08 11:39:31,536:INFO:Scraped job: Video Editor for Sunny and Melon Channels | Melon and Sunny (1.38M) from https://ytjobs.co/job/20786
+2025-01-08 11:39:31,536:INFO:Job already exists. Skipping: Video Editor for Sunny and Melon Channels | Melon and Sunny (1.38M)
+2025-01-08 11:39:32,126:INFO:Navigated to job detail page: https://ytjobs.co/job/20782
+2025-01-08 11:39:33,442:INFO:Job title found for: https://ytjobs.co/job/20782
+2025-01-08 11:39:34,468:INFO:Extracted raw date for job 'Freelance Video Editor | JROB Media': Posted on: Jan 07 2025
+2025-01-08 11:39:34,469:INFO:Scraped job: Freelance Video Editor | JROB Media from https://ytjobs.co/job/20782
+2025-01-08 11:39:34,469:INFO:Job already exists. Skipping: Freelance Video Editor | JROB Media
+2025-01-08 11:39:36,622:INFO:Navigated to job detail page: https://ytjobs.co/job/19851
+2025-01-08 11:39:36,632:INFO:Job title found for: https://ytjobs.co/job/19851
+2025-01-08 11:39:37,659:INFO:Extracted raw date for job 'Video Editor | Alaska Violet (1.71M)': Posted on: Dec 17 2024
+2025-01-08 11:39:37,660:INFO:Scraped job: Video Editor | Alaska Violet (1.71M) from https://ytjobs.co/job/19851
+2025-01-08 11:39:37,660:INFO:Job already exists. Skipping: Video Editor | Alaska Violet (1.71M)
+2025-01-08 11:39:38,592:INFO:Navigated to job detail page: https://ytjobs.co/job/20778
+2025-01-08 11:39:38,596:INFO:Job title found for: https://ytjobs.co/job/20778
+2025-01-08 11:39:39,620:INFO:Extracted raw date for job 'Social Video Editor | Loop': Posted on: Jan 07 2025
+2025-01-08 11:39:39,621:INFO:Scraped job: Social Video Editor | Loop from https://ytjobs.co/job/20778
+2025-01-08 11:39:39,622:INFO:Job already exists. Skipping: Social Video Editor | Loop
+2025-01-08 11:39:41,687:INFO:Navigated to job detail page: https://ytjobs.co/job/20777
+2025-01-08 11:39:41,698:INFO:Job title found for: https://ytjobs.co/job/20777
+2025-01-08 11:39:42,724:INFO:Extracted raw date for job 'Long Form Video Editor | RAVEN (28)': Posted on: Jan 07 2025
+2025-01-08 11:39:42,725:INFO:Scraped job: Long Form Video Editor | RAVEN (28) from https://ytjobs.co/job/20777
+2025-01-08 11:39:42,725:INFO:Job already exists. Skipping: Long Form Video Editor | RAVEN (28)
+2025-01-08 11:39:44,831:INFO:Navigated to job detail page: https://ytjobs.co/job/20148
+2025-01-08 11:39:44,841:INFO:Job title found for: https://ytjobs.co/job/20148
+2025-01-08 11:39:45,867:INFO:Extracted raw date for job 'Video Editor | dylandoesbasketball (206K) | dylandoesbasketball (205K)': Posted on: Dec 19 2024
+2025-01-08 11:39:45,868:INFO:Scraped job: Video Editor | dylandoesbasketball (206K) | dylandoesbasketball (205K) from https://ytjobs.co/job/20148
+2025-01-08 11:39:45,868:INFO:Job already exists. Skipping: Video Editor | dylandoesbasketball (206K) | dylandoesbasketball (205K)
+2025-01-08 11:39:47,741:INFO:Navigated to job detail page: https://ytjobs.co/job/20757
+2025-01-08 11:39:47,751:INFO:Job title found for: https://ytjobs.co/job/20757
+2025-01-08 11:39:48,774:INFO:Extracted raw date for job 'Video Editor | Beta Squad (10.2M)': Posted on: Jan 07 2025
+2025-01-08 11:39:48,774:INFO:Scraped job: Video Editor | Beta Squad (10.2M) from https://ytjobs.co/job/20757
+2025-01-08 11:39:48,775:INFO:Job already exists. Skipping: Video Editor | Beta Squad (10.2M)
+2025-01-08 11:39:54,192:INFO:Navigated to job detail page: https://ytjobs.co/job/20761
+2025-01-08 11:39:54,202:INFO:Job title found for: https://ytjobs.co/job/20761
+2025-01-08 11:39:55,226:INFO:Extracted raw date for job 'Short Form Video Editor (Gaming) | xAcceptiion Live (644K)': Posted on: Jan 07 2025
+2025-01-08 11:39:55,227:INFO:Scraped job: Short Form Video Editor (Gaming) | xAcceptiion Live (644K) from https://ytjobs.co/job/20761
+2025-01-08 11:39:55,227:INFO:Job already exists. Skipping: Short Form Video Editor (Gaming) | xAcceptiion Live (644K)
+2025-01-08 11:39:55,227:INFO:No new jobs found.
+2025-01-08 11:39:55,227:INFO:No jobs posted today.
+2025-01-08 11:39:55,336:INFO:Sleeping for 1200 seconds...
+2025-01-08 12:22:00,456:INFO:Loaded 31 previously scraped jobs.
+2025-01-08 12:22:00,456:INFO:====== WebDriver manager ======
+2025-01-08 12:22:00,909:INFO:Get LATEST chromedriver version for google-chrome
+2025-01-08 12:22:01,272:INFO:Get LATEST chromedriver version for google-chrome
+2025-01-08 12:22:01,603:INFO:Driver [/Users/jero/.wdm/drivers/chromedriver/mac64/131.0.6778.264/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-08 12:22:03,119:INFO:WebDriver initialized and navigating to the job listings page.
+2025-01-08 12:22:21,048:INFO:Loading all jobs...
+2025-01-08 12:22:21,048:INFO:Attempting to click 'See More' button (Attempt 1/5)...
+2025-01-08 12:22:31,392:INFO:No 'See More' button found or it is no longer clickable.
+2025-01-08 12:22:31,399:INFO:Scrolling to bottom (Scroll attempt 1/20)...
+2025-01-08 12:22:33,429:INFO:Page height did not change after scrolling. Assuming all jobs loaded.
+2025-01-08 12:22:33,429:INFO:Collecting job links...
+2025-01-08 12:22:33,445:INFO:Found 15 job cards on the page.
+2025-01-08 12:22:33,464:INFO:Collected job link 1: https://ytjobs.co/job/19996
+2025-01-08 12:22:33,474:INFO:Collected job link 2: https://ytjobs.co/job/20812
+2025-01-08 12:22:33,482:INFO:Collected job link 3: https://ytjobs.co/job/20810
+2025-01-08 12:22:33,490:INFO:Collected job link 4: https://ytjobs.co/job/20243
+2025-01-08 12:22:33,496:INFO:Collected job link 5: https://ytjobs.co/job/20804
+2025-01-08 12:22:33,502:INFO:Collected job link 6: https://ytjobs.co/job/19969
+2025-01-08 12:22:33,508:INFO:Collected job link 7: https://ytjobs.co/job/19943
+2025-01-08 12:22:33,513:INFO:Collected job link 8: https://ytjobs.co/job/20786
+2025-01-08 12:22:33,519:INFO:Collected job link 9: https://ytjobs.co/job/20782
+2025-01-08 12:22:33,524:INFO:Collected job link 10: https://ytjobs.co/job/19851
+2025-01-08 12:22:33,529:INFO:Collected job link 11: https://ytjobs.co/job/20778
+2025-01-08 12:22:33,535:INFO:Collected job link 12: https://ytjobs.co/job/20777
+2025-01-08 12:22:33,540:INFO:Collected job link 13: https://ytjobs.co/job/20148
+2025-01-08 12:22:33,545:INFO:Collected job link 14: https://ytjobs.co/job/20757
+2025-01-08 12:22:33,551:INFO:Collected job link 15: https://ytjobs.co/job/20761
+2025-01-08 12:22:42,778:INFO:Navigated to job detail page: https://ytjobs.co/job/19996
+2025-01-08 12:22:42,798:INFO:Job title found for: https://ytjobs.co/job/19996
+2025-01-08 12:22:43,824:INFO:Extracted raw date for job 'Video Editor | Vlad and Chris (119K)': Posted on: Dec 15 2024
+2025-01-08 12:22:43,825:INFO:Scraped job: Video Editor | Vlad and Chris (119K) from https://ytjobs.co/job/19996
+2025-01-08 12:22:43,825:INFO:Job already exists. Skipping: Video Editor | Vlad and Chris (119K)
+2025-01-08 12:22:45,488:INFO:Navigated to job detail page: https://ytjobs.co/job/20812
+2025-01-08 12:22:45,496:INFO:Job title found for: https://ytjobs.co/job/20812
+2025-01-08 12:22:46,522:INFO:Extracted raw date for job 'Tik tok and shorts specialists | Martin Abundes (71.1K)': Posted on: Jan 08 2025
+2025-01-08 12:22:46,523:INFO:Scraped job: Tik tok and shorts specialists | Martin Abundes (71.1K) from https://ytjobs.co/job/20812
+2025-01-08 12:22:46,523:INFO:Job already exists. Skipping: Tik tok and shorts specialists | Martin Abundes (71.1K)
+2025-01-08 12:22:48,877:INFO:Navigated to job detail page: https://ytjobs.co/job/20810
+2025-01-08 12:22:48,881:INFO:Job title found for: https://ytjobs.co/job/20810
+2025-01-08 12:22:49,909:INFO:Extracted raw date for job 'Video Editor For High Quality True Crime Channel | EVOLV MEDIA': Posted on: Jan 08 2025
+2025-01-08 12:22:49,910:INFO:Scraped job: Video Editor For High Quality True Crime Channel | EVOLV MEDIA from https://ytjobs.co/job/20810
+2025-01-08 12:22:49,910:INFO:Job already exists. Skipping: Video Editor For High Quality True Crime Channel | EVOLV MEDIA
+2025-01-08 12:22:50,819:INFO:Navigated to job detail page: https://ytjobs.co/job/20243
+2025-01-08 12:22:50,824:INFO:Job title found for: https://ytjobs.co/job/20243
+2025-01-08 12:22:51,851:INFO:Extracted raw date for job 'Looking for a Skilled Editor for my Agency | Weebz Hub (1.67K)': Posted on: Dec 22 2024
+2025-01-08 12:22:51,852:INFO:Scraped job: Looking for a Skilled Editor for my Agency | Weebz Hub (1.67K) from https://ytjobs.co/job/20243
+2025-01-08 12:22:51,852:INFO:Job already exists. Skipping: Looking for a Skilled Editor for my Agency | Weebz Hub (1.67K)
+2025-01-08 12:22:54,140:INFO:Navigated to job detail page: https://ytjobs.co/job/20804
+2025-01-08 12:22:54,148:INFO:Job title found for: https://ytjobs.co/job/20804
+2025-01-08 12:22:55,180:INFO:Extracted raw date for job 'Video Editor | BlueNotes Brandon (1.43K)': Posted on: Jan 08 2025
+2025-01-08 12:22:55,181:INFO:Scraped job: Video Editor | BlueNotes Brandon (1.43K) from https://ytjobs.co/job/20804
+2025-01-08 12:22:55,181:INFO:Job already exists. Skipping: Video Editor | BlueNotes Brandon (1.43K)
+2025-01-08 12:22:56,922:INFO:Navigated to job detail page: https://ytjobs.co/job/19969
+2025-01-08 12:22:56,929:INFO:Job title found for: https://ytjobs.co/job/19969
+2025-01-08 12:22:57,959:INFO:Extracted raw date for job 'Video Editor Needed For Youtube Podcast | Dylan Hahn (0)': Posted on: Dec 14 2024
+2025-01-08 12:22:57,960:INFO:Scraped job: Video Editor Needed For Youtube Podcast | Dylan Hahn (0) from https://ytjobs.co/job/19969
+2025-01-08 12:22:57,960:INFO:Job already exists. Skipping: Video Editor Needed For Youtube Podcast | Dylan Hahn (0)
+2025-01-08 12:22:58,654:INFO:Navigated to job detail page: https://ytjobs.co/job/19943
+2025-01-08 12:22:59,923:INFO:Job title found for: https://ytjobs.co/job/19943
+2025-01-08 12:23:00,950:INFO:Extracted raw date for job 'Video Editor | Whristan (108K)': Posted on: Dec 12 2024
+2025-01-08 12:23:00,955:INFO:Scraped job: Video Editor | Whristan (108K) from https://ytjobs.co/job/19943
+2025-01-08 12:23:00,955:INFO:Job already exists. Skipping: Video Editor | Whristan (108K)
+2025-01-08 12:23:02,652:INFO:Navigated to job detail page: https://ytjobs.co/job/20786
+2025-01-08 12:23:02,660:INFO:Job title found for: https://ytjobs.co/job/20786
+2025-01-08 12:23:03,684:INFO:Extracted raw date for job 'Video Editor for Sunny and Melon Channels | Melon and Sunny (1.38M)': Posted on: Jan 07 2025
+2025-01-08 12:23:03,685:INFO:Scraped job: Video Editor for Sunny and Melon Channels | Melon and Sunny (1.38M) from https://ytjobs.co/job/20786
+2025-01-08 12:23:03,685:INFO:Job already exists. Skipping: Video Editor for Sunny and Melon Channels | Melon and Sunny (1.38M)
+2025-01-08 12:23:05,186:INFO:Navigated to job detail page: https://ytjobs.co/job/20782
+2025-01-08 12:23:05,195:INFO:Job title found for: https://ytjobs.co/job/20782
+2025-01-08 12:23:06,221:INFO:Extracted raw date for job 'Freelance Video Editor | JROB Media': Posted on: Jan 07 2025
+2025-01-08 12:23:06,222:INFO:Scraped job: Freelance Video Editor | JROB Media from https://ytjobs.co/job/20782
+2025-01-08 12:23:06,222:INFO:Job already exists. Skipping: Freelance Video Editor | JROB Media
+2025-01-08 12:23:08,826:INFO:Navigated to job detail page: https://ytjobs.co/job/19851
+2025-01-08 12:23:08,833:INFO:Job title found for: https://ytjobs.co/job/19851
+2025-01-08 12:23:09,861:INFO:Extracted raw date for job 'Video Editor | Alaska Violet (1.71M)': Posted on: Dec 17 2024
+2025-01-08 12:23:09,862:INFO:Scraped job: Video Editor | Alaska Violet (1.71M) from https://ytjobs.co/job/19851
+2025-01-08 12:23:09,862:INFO:Job already exists. Skipping: Video Editor | Alaska Violet (1.71M)
+2025-01-08 12:23:12,225:INFO:Navigated to job detail page: https://ytjobs.co/job/20778
+2025-01-08 12:23:12,235:INFO:Job title found for: https://ytjobs.co/job/20778
+2025-01-08 12:23:13,263:INFO:Extracted raw date for job 'Social Video Editor | Loop': Posted on: Jan 07 2025
+2025-01-08 12:23:13,264:INFO:Scraped job: Social Video Editor | Loop from https://ytjobs.co/job/20778
+2025-01-08 12:23:13,264:INFO:Job already exists. Skipping: Social Video Editor | Loop
+2025-01-08 12:23:15,959:INFO:Navigated to job detail page: https://ytjobs.co/job/20777
+2025-01-08 12:23:15,968:INFO:Job title found for: https://ytjobs.co/job/20777
+2025-01-08 12:23:16,994:INFO:Extracted raw date for job 'Long Form Video Editor | RAVEN (28)': Posted on: Jan 07 2025
+2025-01-08 12:23:16,994:INFO:Scraped job: Long Form Video Editor | RAVEN (28) from https://ytjobs.co/job/20777
+2025-01-08 12:23:16,994:INFO:Job already exists. Skipping: Long Form Video Editor | RAVEN (28)
+2025-01-08 12:23:18,993:INFO:Navigated to job detail page: https://ytjobs.co/job/20148
+2025-01-08 12:23:19,003:INFO:Job title found for: https://ytjobs.co/job/20148
+2025-01-08 12:23:20,029:INFO:Extracted raw date for job 'Video Editor | dylandoesbasketball (206K) | dylandoesbasketball (205K)': Posted on: Dec 19 2024
+2025-01-08 12:23:20,030:INFO:Scraped job: Video Editor | dylandoesbasketball (206K) | dylandoesbasketball (205K) from https://ytjobs.co/job/20148
+2025-01-08 12:23:20,030:INFO:Job already exists. Skipping: Video Editor | dylandoesbasketball (206K) | dylandoesbasketball (205K)
+2025-01-08 12:23:21,124:INFO:Navigated to job detail page: https://ytjobs.co/job/20757
+2025-01-08 12:23:21,130:INFO:Job title found for: https://ytjobs.co/job/20757
+2025-01-08 12:23:22,156:INFO:Extracted raw date for job 'Video Editor | Beta Squad (10.2M)': Posted on: Jan 07 2025
+2025-01-08 12:23:22,157:INFO:Scraped job: Video Editor | Beta Squad (10.2M) from https://ytjobs.co/job/20757
+2025-01-08 12:23:22,157:INFO:Job already exists. Skipping: Video Editor | Beta Squad (10.2M)
+2025-01-08 12:23:23,161:INFO:Navigated to job detail page: https://ytjobs.co/job/20761
+2025-01-08 12:23:23,165:INFO:Job title found for: https://ytjobs.co/job/20761
+2025-01-08 12:23:24,192:INFO:Extracted raw date for job 'Short Form Video Editor (Gaming) | xAcceptiion Live (644K)': Posted on: Jan 07 2025
+2025-01-08 12:23:24,193:INFO:Scraped job: Short Form Video Editor (Gaming) | xAcceptiion Live (644K) from https://ytjobs.co/job/20761
+2025-01-08 12:23:24,193:INFO:Job already exists. Skipping: Short Form Video Editor (Gaming) | xAcceptiion Live (644K)
+2025-01-08 12:23:24,193:INFO:No new jobs found.
+2025-01-08 12:23:24,193:INFO:No jobs posted today.
+2025-01-08 12:23:24,302:INFO:Sleeping for 1200 seconds...

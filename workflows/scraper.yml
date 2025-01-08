@@ -1,0 +1,46 @@
+name: Run Scraper
+
+on:
+  # Triggers: You can run on push, pull_request, or a schedule, etc.
+  # Here are some examples:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+  schedule:
+    - cron: "0 8 * * *" # Runs every day at 8 AM UTC (example)
+
+jobs:
+  run-scraper:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.x"
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser chromium-chromedriver
+          # If chromium-browser is not found on some runners, you may need:
+          #   sudo apt-get install -y chromium
+          #   sudo apt-get install -y chromium-chromedriver
+
+      - name: Install required Python packages
+        run: |
+          pip install --upgrade pip
+          pip install selenium webdriver_manager beautifulsoup4
+
+      - name: Run Scraper
+        run: |
+          python scraper.py
+
+      - name: Upload Log as Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: scraper-logs
+          path: job_scraper.log
