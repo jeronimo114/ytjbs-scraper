@@ -1,57 +1,46 @@
-name: Job Scraper
+name: Run Scraper
 
 on:
+  # Triggers: You can run on push, pull_request, or a schedule, etc.
+  # Here are some examples:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
   schedule:
-    - cron: '*/15 * * * *'  # Se ejecuta cada 15 minutos
-  workflow_dispatch:        # Permite ejecuciones manuales
+    - cron: "0 8 * * *" # Runs every day at 8 AM UTC (example)
 
 jobs:
-  scrape:
+  run-scraper:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v2
+      - name: Check out repository
+        uses: actions/checkout@v2
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.13'  # Especifica tu versión de Python
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.x"
 
-    - name: Install dependencies
-      run: |
-        if [ -f requirements.txt ]; then
-          python -m pip install -r ./requirements.txt
-        else
-          echo "No requirements.txt found, skipping..."
-        fi
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser chromium-chromedriver
+          # If chromium-browser is not found on some runners, you may need:
+          #   sudo apt-get install -y chromium
+          #   sudo apt-get install -y chromium-chromedriver
 
+      - name: Install required Python packages
+        run: |
+          pip install --upgrade pip
+          pip install selenium webdriver_manager beautifulsoup4
 
-    - name: Run Scraper
-      run: |
-        python app.py
+      - name: Run Scraper
+        run: |
+          python app.py
 
-    - name: Send Email Notification
-      uses: dawidd6/action-send-mail@v3
-      with:
-        server_address: smtp.gmail.com
-        server_port: 465
-        username: ${{ secrets.EMAIL_USERNAME }}
-        password: ${{ secrets.EMAIL_PASSWORD }}
-        subject: "Job Scraper Run - ${{ github.workflow }} #${{ github.run_number }}"
-        body: |
-          Hola,
-
-          El workflow de Job Scraper ha finalizado.
-
-          **Estado:** ${{ job.status }}
-          **Repositorio:** ${{ github.repository }}
-          **ID de Ejecución:** ${{ github.run_id }}
-          **Número de Ejecución:** ${{ github.run_number }}
-          **URL de Ejecución:** ${{ github.run_url }}
-
-          Saludos cordiales,
-          GitHub Actions
-        from: ${{ secrets.EMAIL_FROM }}
-        to: ${{ secrets.EMAIL_TO }}
-        secure: true
+      - name: Upload Log as Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: scraper-logs
+          path: job_scraper.log
