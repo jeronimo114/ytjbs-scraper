@@ -1,13 +1,9 @@
 name: Run Scraper
 
 on:
-  # Triggers: You can run on push, pull_request, or a schedule, etc.
-  # Here are some examples:
-  push:
-    branches: ["main"]
-  workflow_dispatch:
+  workflow_dispatch: # Allows manual trigger
   schedule:
-    - cron: "0 8 * * *" # Runs every day at 8 AM UTC (example)
+    - cron: "*/10 * * * *" # Runs every 10 minutes
 
 jobs:
   run-scraper:
@@ -26,9 +22,6 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y chromium-browser chromium-chromedriver
-          # If chromium-browser is not found on some runners, you may need:
-          #   sudo apt-get install -y chromium
-          #   sudo apt-get install -y chromium-chromedriver
 
       - name: Install required Python packages
         run: |
