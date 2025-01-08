@@ -24,12 +24,12 @@ import logging
 # -----------------------------------------------------------------------------
 # Configuration Section
 # -----------------------------------------------------------------------------
-URL = "https://ytjobs.co/job/search/all_categories"           # The job listings page
-CHECK_INTERVAL = 60                 # Check for new jobs every X seconds
-RETRY_LIMIT = 3                     # Maximum retries for processing each job
-CSV_FILE_NAME = "job_listings.csv"  # Where scraped jobs will be stored
-TODAY_JOBS_FILE = "today_jobs.csv"  # Where today's jobs will be stored
-LOG_FILE_NAME = "job_scraper.log"   # Log file for debugging and tracking
+URL = "https://ytjobs.co/job/search/video_editor"  # The job listings page
+CHECK_INTERVAL = 1200                 # Check for new jobs every X seconds
+RETRY_LIMIT = 3                       # Maximum retries for processing each job
+CSV_FILE_NAME = "job_listings.csv"    # Where scraped jobs will be stored
+TODAY_JOBS_FILE = "today_jobs.csv"    # Where today's jobs will be stored
+LOG_FILE_NAME = "job_scraper.log"     # Log file for debugging and tracking
 
 # -----------------------------------------------------------------------------
 # Setup Logging
@@ -84,20 +84,18 @@ def click_see_more_button(driver, max_clicks=5):
     while clicks < max_clicks:
         try:
             logger.info(f"Attempting to click 'See More' button (Attempt {clicks + 1}/{max_clicks})...")
-            # Update the XPath to match 'See More' instead of 'Load More'
             see_more_button = WebDriverWait(driver, 10).until(
                 EC.element_to_be_clickable((By.XPATH, "//button[contains(text(),'See More')]"))
             )
             see_more_button.click()
             logger.info("Clicked 'See More' button.")
-            # Wait for new jobs to load
-            time.sleep(3)
+            time.sleep(3)  # Wait for new jobs to load
             clicks += 1
         except TimeoutException:
             logger.info("No 'See More' button found or it is no longer clickable.")
             break
         except ElementClickInterceptedException:
-            logger.warning("ElementClickInterceptedException encountered. Trying to click again after a short wait.")
+            logger.warning("ElementClickInterceptedException encountered. Trying again after a short wait.")
             time.sleep(2)
         except Exception as e:
             logger.error(f"Error while clicking 'See More': {e}")
@@ -117,12 +115,10 @@ def scroll_to_load_all(driver, pause_time=2, max_scrolls=20):
     scroll_attempts = 0
 
     while scroll_attempts < max_scrolls:
-        # Scroll down
         logger.info(f"Scrolling to bottom (Scroll attempt {scroll_attempts + 1}/{max_scrolls})...")
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         time.sleep(pause_time)
 
-        # Calculate new scroll height
         new_height = driver.execute_script("return document.body.scrollHeight")
         if new_height == last_height:
             logger.info("Page height did not change after scrolling. Assuming all jobs loaded.")
@@ -137,10 +133,7 @@ def load_all_jobs(driver):
     """
     Clicks the 'See More' button up to 5 times, then performs infinite scroll.
     """
-    # 1) Click the "See More" button up to 5 times
     click_see_more_button(driver, max_clicks=5)
-
-    # 2) Then perform infinite scroll to catch any additional lazy-loaded items
     scroll_to_load_all(driver, pause_time=2, max_scrolls=20)
 
 # -----------------------------------------------------------------------------
@@ -153,7 +146,6 @@ def collect_job_links(driver):
     """
     job_links = []
     try:
-        # Update the CSS selector if necessary
         job_cards = driver.find_elements(By.CSS_SELECTOR, "div[data-testid='jobCardElement']")
         logger.info(f"Found {len(job_cards)} job cards on the page.")
 
@@ -206,8 +198,7 @@ def scrape_job_details(driver, job_link):
         if title_element:
             job_data["title"] = title_element.get_text(strip=True)
 
-        # Extract job date (looking for "Posted on:")
-        # Adjust as needed if the site’s HTML changes
+        # Extract job date
         posted_on_element = soup.find("div", string=lambda text: text and "Posted on:" in text)
         if posted_on_element:
             raw_date = posted_on_element.get_text(strip=True)
@@ -217,7 +208,7 @@ def scrape_job_details(driver, job_link):
             logger.warning(f"Date element not found for job '{job_data['title']}' at {job_link}")
 
         # Extract job description
-        desc_element = soup.find("div", class_="ql-editor")  # Update if class changed
+        desc_element = soup.find("div", class_="ql-editor")
         if desc_element:
             job_data["description"] = desc_element.get_text(strip=True)
 
@@ -240,20 +231,17 @@ def parse_and_format_date(raw_date):
     formatted_date = "N/A"
 
     try:
-        # Remove "Posted on:" if present
         if "Posted on:" in raw_date:
             date_str = raw_date.replace("Posted on:", "").strip()
         else:
             date_str = raw_date.strip()
 
-        # Handle relative dates
         if "Today" in date_str:
             formatted_date = today.strftime("%m-%d-%Y")
         elif "Yesterday" in date_str:
             yesterday = today - timedelta(days=1)
             formatted_date = yesterday.strftime("%m-%d-%Y")
         else:
-            # Try multiple known date formats
             date_formats = ["%b %d %Y", "%B %d %Y", "%m/%d/%Y", "%m-%d-%Y"]
             for fmt in date_formats:
                 try:
@@ -283,7 +271,6 @@ def save_to_csv(job_entries):
         with open(CSV_FILE_NAME, mode="a", encoding="utf-8", newline="") as f:
             writer = csv.writer(f)
             if not file_exists:
-                # Write header only if new file
                 writer.writerow(["Title", "Link", "Date", "Description", "Scrape Timestamp"])
 
             for job in job_entries:
@@ -348,7 +335,7 @@ def save_todays_jobs(job_entries):
         traceback.print_exc()
 
 # -----------------------------------------------------------------------------
-# 7. Main Execution Loop
+# 7. Main Execution
 # -----------------------------------------------------------------------------
 def main():
     # Load previously scraped jobs (by Title) to avoid duplicates
@@ -366,60 +353,62 @@ def main():
             logger.error(f"Error reading {CSV_FILE_NAME}: {e}")
             traceback.print_exc()
 
-    while True:
-        driver = setup_driver()
-        try:
-            logger.info("Loading all jobs...")
-            load_all_jobs(driver)
+    driver = setup_driver()
+    try:
+        logger.info("Loading all jobs...")
+        load_all_jobs(driver)
 
-            logger.info("Collecting job links...")
-            job_links = collect_job_links(driver)
+        logger.info("Collecting job links...")
+        job_links = collect_job_links(driver)
 
-            new_job_entries = []
-            todays_job_entries = []
-            today_str = datetime.today().strftime("%m-%d-%Y")
+        new_job_entries = []
+        todays_job_entries = []
+        today_str = datetime.today().strftime("%m-%d-%Y")
 
-            for job_link in job_links:
-                # Avoid re-scraping the same link within a single run
-                # or duplicates within this iteration
-                if job_link in [j["link"] for j in new_job_entries]:
-                    continue
+        for job_link in job_links:
+            # Avoid re-scraping the same link within this run
+            if job_link in [j["link"] for j in new_job_entries]:
+                continue
 
-                job_data = scrape_job_details(driver, job_link)
+            job_data = scrape_job_details(driver, job_link)
 
-                # Check if we already have this job (by title) from previous runs
-                if job_data["title"] not in previous_jobs:
-                    new_job_entries.append(job_data)
-                    previous_jobs.add(job_data["title"])
+            # Check if we already have this job (by title) from previous runs
+            if job_data["title"] not in previous_jobs:
+                new_job_entries.append(job_data)
+                previous_jobs.add(job_data["title"])
 
-                    # If date == today's date, also store in today's file
-                    if job_data["date"] == today_str:
-                        todays_job_entries.append(job_data)
-                else:
-                    logger.info(f"Job already exists. Skipping: {job_data['title']}")
-
-            if new_job_entries:
-                logger.info(f"Found {len(new_job_entries)} new job(s). Saving to CSV...")
-                save_to_csv(new_job_entries)
+                # If date == today's date, also store in today's file
+                if job_data["date"] == today_str:
+                    todays_job_entries.append(job_data)
             else:
-                logger.info("No new jobs found.")
+                logger.info(f"Job already exists. Skipping: {job_data['title']}")
 
-            if todays_job_entries:
-                logger.info(
-                    f"Found {len(todays_job_entries)} job(s) posted today. Saving to {TODAY_JOBS_FILE}..."
-                )
-                save_todays_jobs(todays_job_entries)
-            else:
-                logger.info("No jobs posted today.")
+        if new_job_entries:
+            logger.info(f"Found {len(new_job_entries)} new job(s). Saving to CSV...")
+            save_to_csv(new_job_entries)
+        else:
+            logger.info("No new jobs found.")
 
-        except Exception as e:
-            logger.error(f"An error occurred during scraping: {e}")
-            traceback.print_exc()
-        finally:
-            driver.quit()
+        if todays_job_entries:
+            logger.info(f"Found {len(todays_job_entries)} job(s) posted today. Saving to {TODAY_JOBS_FILE}...")
+            save_todays_jobs(todays_job_entries)
+        else:
+            logger.info("No jobs posted today.")
 
-        logger.info(f"Sleeping for {CHECK_INTERVAL} seconds...")
-        time.sleep(CHECK_INTERVAL)
+    except Exception as e:
+        logger.error(f"An error occurred during scraping: {e}")
+        traceback.print_exc()
+    finally:
+        driver.quit()
+
+    # -------------------------------------------------------------------------
+    # Original infinite loop removed/commented out for GitHub Actions:
+    #
+    # while True:
+    #     # This would re-run everything indefinitely.
+    #     # We’ve removed it to let the script exit in a CI environment.
+    #     time.sleep(CHECK_INTERVAL)
+    # -------------------------------------------------------------------------
 
 if __name__ == "__main__":
     main()
