@@ -24,8 +24,8 @@ import logging
 # -----------------------------------------------------------------------------
 # Configuration Section
 # -----------------------------------------------------------------------------
-URL = "https://ytjobs.co/job/search/all_categories"           # The job listings page
-CHECK_INTERVAL = 600                # Check for new jobs every X seconds
+URL = "https://ytjobs.co/job/search/video_editor"           # The job listings page
+CHECK_INTERVAL = 1200                 # Check for new jobs every X seconds
 RETRY_LIMIT = 3                     # Maximum retries for processing each job
 CSV_FILE_NAME = "job_listings.csv"  # Where scraped jobs will be stored
 TODAY_JOBS_FILE = "today_jobs.csv"  # Where today's jobs will be stored
